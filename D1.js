@@ -12,6 +12,19 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+/*
+String: utilizzato per raffigurare carattere e/o un testo
+
+Number: utilizzato per i numeri che essi siano negativi ,positivi ,decimali o interi
+
+Boolean: utilizzato per descrivere se un qualcosa é vero o falso (true or false)
+
+Undefined: utilizzato quando non si sa ancora di che tipo sará il dato o la variabile
+
+
+
+
+*/
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
