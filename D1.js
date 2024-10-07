@@ -18,18 +18,21 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let myName = "Tommaso";
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let sum = 12 + 20;
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 12;
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -37,12 +40,17 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// É COMMENTATO PERCHÉ SENNÓ LA CONSOLE NON MOSTRA GLI OUTPUT DELLE SEGUENTI RIGHE DI CODICE
+myName = "Cesaro";
+const mySurname = "Cesaro";
+// mySurname = "Tommaso";
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let operation = 4 - x;
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -51,3 +59,13 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john";
+let name2 = "John";
+
+let variabileBooleana = name1 !== name2;
+
+console.log(variabileBooleana);
+
+let secondaVariabileBooleana = name1.toLowerCase() === name2.toLowerCase();
+
+console.log(secondaVariabileBooleana);
